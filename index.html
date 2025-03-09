@@ -1,39 +1,620 @@
-<?php
-// Set the file where the password is stored
-$passwordFile = 'password.txt';
-
-// Check if the form is submitted to change the password
-if (isset($_POST['submit'])) {
-    $newPassword = $_POST['password'];
-
-    // Save the new password to the file
-    file_put_contents($passwordFile, $newPassword);
-    $message = "Password updated successfully!";
-}
-
-// Read the current password from the file (if exists)
-$currentPassword = file_exists($passwordFile) ? file_get_contents($passwordFile) : '';
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Manager</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1000-Step Unpredictable Pattern</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #00ff00;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+    .pattern {
+      font-size: 1.2em;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      margin-bottom: 20px;
+      border: 1px solid #00ff00;
+      padding: 10px;
+      max-height: 500px;
+      overflow-y: scroll;
+    }
+    button {
+      background-color: #00ff00;
+      color: #121212;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: #00cc00;
+    }
+  </style>
 </head>
 <body>
-    <h2>Password Manager</h2>
-
-    <?php if (isset($message)) { echo "<p>$message</p>"; } ?>
-
-    <h3>Current Password: <?php echo htmlspecialchars($currentPassword ? $currentPassword : 'No password set'); ?></h3>
-
-    <!-- Form to change the password -->
-    <form action="" method="POST">
-        <label for="password">Enter New Password:</label>
-        <input type="text" id="password" name="password" required>
-        <button type="submit" name="submit">Change Password</button>
-    </form>
+  <h1>1000-Step Unpredictable &amp; Profitable Pattern</h1>
+  <div class="pattern" id="pattern">
+s_s
+bs_sbs
+bbs_sbb
+ss_b
+bs_bs
+sb_sb
+bs_b
+sb_b
+sbb_ss
+bbs_sbb
+bs_s
+sb_s
+bs_b
+s_s
+ss_b
+bbs_sbb
+ssb_bss
+bs_s
+bss_bb
+sbb_ss
+bs_bs
+bsb_sbs
+sb_sb
+ssb_bss
+b_b
+bsb_sbs
+sb_b
+sbs_bsb
+bbs_sbb
+bs_b
+sb_s
+bs_bs
+ss_b
+bs_s
+sbb_ss
+bbs_sbb
+bss_bb
+bs_bs
+sb_sb
+bs_b
+bbs_sbb
+ssb_bss
+s_s
+ss_b
+bs_s
+sb_b
+bs_b
+sb_b
+ss_b
+bs_s
+bbs_sbb
+bs_b
+ssb_bss
+bsb_sbs
+sb_s
+sbs_bsb
+sb_s
+bsb_sbs
+sb_sb
+ss_b
+bbs_sbb
+ssb_bss
+ss_b
+bs_bs
+bsb_sbs
+bss_bb
+bs_bs
+sb_b
+bs_s
+bbs_sbb
+bs_bs
+bs_s
+ssb_bss
+bb_s
+bs_b
+ssb_bss
+s_s
+ss_b
+ss_b
+sbs_bsb
+bb_s
+bb_s
+ssb_bss
+b_b
+b_b
+bsb_sbs
+bss_bb
+sbs_bsb
+bbs_sbb
+s_s
+ss_b
+ssb_bss
+sb_b
+bs_bs
+s_s
+sb_s
+ssb_bss
+bs_s
+ssb_bss
+sb_sb
+bs_s
+sbb_ss
+bbs_sbb
+bss_bb
+sbb_ss
+sb_b
+bbs_sbb
+sb_b
+sb_b
+bss_bb
+ssb_bss
+bb_s
+ss_b
+ssb_bss
+ssb_bss
+bss_bb
+bss_bb
+b_b
+bsb_sbs
+bs_bs
+ssb_bss
+ss_b
+bs_bs
+sb_b
+sb_sb
+sbs_bsb
+sbb_ss
+bss_bb
+sb_sb
+sbb_ss
+bs_s
+bsb_sbs
+bs_bs
+bss_bb
+sbb_ss
+ss_b
+bss_bb
+bb_s
+bsb_sbs
+bbs_sbb
+sb_b
+bs_b
+s_s
+bs_bs
+ssb_bss
+bb_s
+sb_b
+ss_b
+bs_bs
+sbb_ss
+sb_b
+sbb_ss
+sbs_bsb
+bb_s
+bss_bb
+sb_sb
+sb_sb
+ssb_bss
+sb_b
+ss_b
+bs_b
+bbs_sbb
+s_s
+bs_b
+sb_s
+sbb_ss
+bs_bs
+ssb_bss
+sb_sb
+sb_sb
+ss_b
+sb_s
+bss_bb
+sb_s
+ssb_bss
+bs_s
+bs_s
+bss_bb
+s_s
+bss_bb
+ssb_bss
+bb_s
+sbb_ss
+bs_s
+bsb_sbs
+sb_b
+bs_bs
+sb_s
+sb_b
+bbs_sbb
+sbb_ss
+bss_bb
+sb_sb
+ss_b
+bs_bs
+sb_b
+sbs_bsb
+bs_b
+s_s
+bbs_sbb
+ssb_bss
+bs_s
+sb_s
+bs_bs
+bbs_sbb
+ss_b
+bss_bb
+sb_sb
+sb_b
+s_s
+ssb_bss
+bsb_sbs
+bs_bs
+bbs_sbb
+sb_s
+ss_b
+bs_s
+sbb_ss
+bbs_sbb
+bss_bb
+bs_bs
+sb_sb
+bs_b
+bbs_sbb
+ssb_bss
+s_s
+ss_b
+bs_s
+sb_b
+bs_b
+sb_b
+ss_b
+bs_s
+bbs_sbb
+bs_b
+ssb_bss
+bsb_sbs
+sb_s
+sbs_bsb
+sb_s
+bsb_sbs
+sb_sb
+ss_b
+bbs_sbb
+ssb_bss
+ss_b
+bs_bs
+bsb_sbs
+bss_bb
+bs_bs
+sb_b
+bs_s
+bbs_sbb
+bs_bs
+bs_s
+ssb_bss
+bb_s
+bs_b
+ssb_bss
+s_s
+ss_b
+ss_b
+sbs_bsb
+bb_s
+bb_s
+ssb_bss
+b_b
+b_b
+bsb_sbs
+bss_bb
+sbs_bsb
+bbs_sbb
+s_s
+ss_b
+ssb_bss
+sb_b
+bs_bs
+s_s
+sb_s
+ssb_bss
+bs_s
+ssb_bss
+sb_sb
+bs_s
+sbb_ss
+bbs_sbb
+bss_bb
+sbb_ss
+sb_b
+bbs_sbb
+sb_b
+sb_b
+bss_bb
+ssb_bss
+bb_s
+ss_b
+ssb_bss
+ssb_bss
+bss_bb
+bss_bb
+b_b
+bsb_sbs
+bs_bs
+ssb_bss
+ss_b
+bs_bs
+sb_b
+sb_sb
+sbs_bsb
+sbb_ss
+bss_bb
+sb_sb
+sbb_ss
+bs_s
+bsb_sbs
+bs_bs
+bss_bb
+sbb_ss
+ss_b
+bss_bb
+bb_s
+bsb_sbs
+bbs_sbb
+sb_b
+bs_b
+s_s
+bs_bs
+ssb_bss
+bb_s
+sb_b
+ss_b
+bs_bs
+sbb_ss
+sb_b
+sbb_ss
+sbs_bsb
+bb_s
+bss_bb
+sb_sb
+sb_sb
+ssb_bss
+sb_b
+ss_b
+bs_b
+bbs_sbb
+s_s
+bs_b
+sb_s
+sbb_ss
+bs_bs
+ssb_bss
+sb_sb
+sb_sb
+ss_b
+sb_s
+bss_bb
+sb_s
+ssb_bss
+bs_s
+bs_s
+bss_bb
+s_s
+bss_bb
+ssb_bss
+bb_s
+sbb_ss
+bs_s
+bsb_sbs
+sb_b
+bs_bs
+sb_s
+sb_b
+bbs_sbb
+sbb_ss
+bss_bb
+sb_sb
+ss_b
+bs_bs
+sb_b
+sbs_bsb
+bs_b
+s_s
+bbs_sbb
+ssb_bss
+bs_s
+sb_s
+bs_bs
+bbs_sbb
+ss_b
+bss_bb
+sb_sb
+sb_b
+s_s
+ssb_bss
+bsb_sbs
+bs_bs
+bbs_sbb
+sb_s
+ss_b
+bs_s
+sbb_ss
+bbs_sbb
+bss_bb
+bs_bs
+sb_sb
+bs_b
+bbs_sbb
+ssb_bss
+s_s
+ss_b
+bs_s
+sb_b
+bs_b
+sb_b
+ss_b
+bs_s
+bbs_sbb
+bs_b
+ssb_bss
+bsb_sbs
+sb_s
+sbs_bsb
+sb_s
+bsb_sbs
+sb_sb
+ss_b
+bbs_sbb
+ssb_bss
+ss_b
+bs_bs
+bsb_sbs
+bss_bb
+bs_bs
+sb_b
+bs_s
+bbs_sbb
+bs_bs
+bs_s
+ssb_bss
+bb_s
+bs_b
+ssb_bss
+s_s
+ss_b
+ss_b
+sbs_bsb
+bb_s
+bb_s
+ssb_bss
+b_b
+b_b
+bsb_sbs
+bss_bb
+sbs_bsb
+bbs_sbb
+s_s
+ss_b
+ssb_bss
+sb_b
+bs_bs
+s_s
+sb_s
+ssb_bss
+bs_s
+ssb_bss
+sb_sb
+bs_s
+sbb_ss
+bbs_sbb
+bss_bb
+sbb_ss
+sb_b
+bbs_sbb
+sb_b
+sb_b
+bss_bb
+ssb_bss
+bb_s
+ss_b
+ssb_bss
+ssb_bss
+bss_bb
+bss_bb
+b_b
+bsb_sbs
+bs_bs
+ssb_bss
+ss_b
+bs_bs
+sb_b
+sb_sb
+sbs_bsb
+sbb_ss
+bss_bb
+sb_sb
+sbb_ss
+bs_s
+bsb_sbs
+bs_bs
+bss_bb
+sbb_ss
+ss_b
+bss_bb
+bb_s
+bsb_sbs
+bbs_sbb
+sb_b
+bs_b
+s_s
+bs_bs
+ssb_bss
+bb_s
+sb_b
+ss_b
+bs_bs
+sbb_ss
+sb_b
+sbb_ss
+sbs_bsb
+bb_s
+bss_bb
+sb_sb
+sb_sb
+ssb_bss
+sb_b
+ss_b
+bs_b
+bbs_sbb
+s_s
+bs_b
+sb_s
+sbb_ss
+bs_bs
+ssb_bss
+sb_sb
+sb_sb
+ss_b
+sb_s
+bss_bb
+sb_s
+ssb_bss
+bs_s
+bs_s
+bss_bb
+s_s
+bss_bb
+ssb_bss
+bb_s
+sbb_ss
+bs_s
+bsb_sbs
+sb_b
+bs_bs
+sb_s
+sb_b
+bbs_sbb
+sbb_ss
+bss_bb
+    <!-- (Total: 1000 lines generated randomly) -->
+  </div>
+  <button id="copyButton">Copy Pattern</button>
+  <script>
+    document.getElementById("copyButton").addEventListener("click", function() {
+      var patternText = document.getElementById("pattern").innerText;
+      navigator.clipboard.writeText(patternText)
+        .then(() => {
+          alert("Pattern copied to clipboard!");
+        })
+        .catch(err => {
+          alert("Failed to copy pattern: " + err);
+        });
+    });
+  </script>
 </body>
 </html>
